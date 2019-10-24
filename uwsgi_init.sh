@@ -13,7 +13,7 @@
 #set -x
 
 PATH=/sbin:/bin:/usr/sbin:/usr/bin:/home/venv_fileupload/bin
-DAEMON=/home/venv_fileupload/bin/uwsgi 
+DAEMON=/home/python_virtualenv/bin/uwsgi 
 RUN_DIR=/var/run/uwsgi
 LOG_DIR=/home/log/vendor/fileupload
 VASSALS_DIR=/home/vendor/fileupload/uwsgi/vassals
